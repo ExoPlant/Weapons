@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "weapons",
+  "version": "${version}",
+
+  "name": "Weapons",
+  "description": "Modern and Medieval Weapons",
+  "authors": [
+    "ZestyBlaze"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod",
+    "issues": ""
+  },
+
+  "license": "MIT License",
+  "icon": "assets/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.zestyblaze.weapons.Weapons"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}
